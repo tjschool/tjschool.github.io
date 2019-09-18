@@ -1,5 +1,5 @@
 function message(message, yes, no) {
-var respond = getElementById('respond');
+var respond = document.getElementById('respond');
 if(confirm(message) == true){
 respond.innerHTML = yes;
 }else{
