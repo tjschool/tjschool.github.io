@@ -1,4 +1,4 @@
-function(message, yes, no) {
+function message(message, yes, no) {
 var respond = getElementById('respond');
 if(confirm(message) == true){
 respond.innerHTML = yes;
