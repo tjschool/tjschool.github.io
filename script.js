@@ -1,8 +1,4 @@
-var respond = document.getElementById('respond');
-function message(message, yes, no) {
-if(confirm(message) == true){
-respond.innerHTML = yes;
-}else{
-respond.innerHTML = no;
+window.onload = function() {
+    // similar behavior as clicking on a link
+    window.location.href = "tjschool.github.io/Glossary-Maker";
 }
-};
